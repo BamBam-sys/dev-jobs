@@ -26,7 +26,7 @@ const search = () => {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container pb-[5rem]">
     <div class="transform translate-y-[-50%]">
       <UtilityBar @toggle-modal="toggleModal" @search="search" />
     </div>
